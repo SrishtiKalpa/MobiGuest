@@ -1,0 +1,29 @@
+# Core Dependencies
+fastapi>=0.68.0
+uvicorn>=0.15.0
+streamlit>=1.24.0
+
+# Web & API
+requests>=2.28.1
+python-multipart>=0.0.20
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+beautifulsoup4>=4.11.1
+
+# LangChain & AI
+langchain>=0.1.0
+langchain-community>=0.0.10
+langchain-core>=0.1.0
+langchain-text-splitters>=0.0.1
+langchain-ollama>=0.1.0
+ollama>=0.1.0
+
+# Data Processing
+pandas>=1.5.0
+python-docx>=1.0.0
+PyPDF2>=3.0.0
+chromadb>=0.4.0
+
+# Optional (used in some parts of the code)
+python-dotenv>=0.19.0
+pydantic>=1.10.0
